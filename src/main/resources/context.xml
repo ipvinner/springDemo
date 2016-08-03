@@ -3,5 +3,17 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="t1000" class="ua.od.iptel.spring.impls.robot.ModelT1000"></bean>
+    <bean id="t1000" class="ua.od.iptel.spring.impls.robot.ModelT1000">
+        <constructor-arg ref="sonyHand"/>
+        <constructor-arg ref="sonyLeg"/>
+        <constructor-arg ref="sonyHead"/>
+    </bean>
+
+    <bean id="sonyHand" class="ua.od.iptel.spring.impls.sony.SonyHand"></bean>
+    <bean id="sonyHead" class="ua.od.iptel.spring.impls.sony.SonyHead"></bean>
+    <bean id="sonyLeg" class="ua.od.iptel.spring.impls.sony.SonyLeg"></bean>
+
+    <bean id="toshibaHand" class="ua.od.iptel.spring.impls.toshiba.ToshibaHand"></bean>
+    <bean id="toshibaHead" class="ua.od.iptel.spring.impls.toshiba.ToshibaHead"></bean>
+    <bean id="toshibaLeg" class="ua.od.iptel.spring.impls.toshiba.ToshibaLeg"></bean>
 </beans>
