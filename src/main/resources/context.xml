@@ -4,9 +4,16 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="t1000" class="ua.od.iptel.spring.impls.robot.ModelT1000">
-        <constructor-arg ref="sonyHand"/>
-        <constructor-arg ref="sonyLeg"/>
-        <constructor-arg ref="sonyHead"/>
+        <!--Внедрение через конструктор-->
+        <!--<constructor-arg ref="sonyHand"/>-->
+        <!--<constructor-arg ref="sonyLeg"/>-->
+        <!--<constructor-arg ref="sonyHead"/>-->
+
+        <!--Внедрение объектов через сеттеры-->
+        <property name="hand" ref="toshibaHand"/>
+        <property name="head" ref="toshibaHead"/>
+        <property name="leg" ref="toshibaLeg"/>
+
     </bean>
 
     <bean id="sonyHand" class="ua.od.iptel.spring.impls.sony.SonyHand"></bean>
