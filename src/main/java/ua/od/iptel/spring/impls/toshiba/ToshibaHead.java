@@ -1,8 +1,8 @@
-package ru.javabegin.training.spring.impls.toshiba;
+package ua.od.iptel.spring.impls.toshiba;
 
-import ru.javabegin.training.spring.interfaces.Head;
+import ua.od.iptel.spring.interfaces.Head;
 
-public class ToshibaHead implements Head{
+public class ToshibaHead implements Head {
 	
 	public void calc(){
 		System.out.println("Thinking about Toshiba...");

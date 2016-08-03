@@ -1,9 +1,9 @@
-package ru.javabegin.training.spring.main;
+package ua.od.iptel.spring.main;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import ua.od.iptel.spring.impls.robot.ModelT1000;
 
-import ru.javabegin.training.spring.impls.robot.ModelT1000;
 
 public class Start {
 	public static void main(String[] args) {

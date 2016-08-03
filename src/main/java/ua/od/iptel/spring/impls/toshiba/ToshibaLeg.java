@@ -1,6 +1,6 @@
-package ru.javabegin.training.spring.impls.toshiba;
+package ua.od.iptel.spring.impls.toshiba;
 
-import ru.javabegin.training.spring.interfaces.Leg;
+import ua.od.iptel.spring.interfaces.Leg;
 
 public class ToshibaLeg implements Leg {
 	

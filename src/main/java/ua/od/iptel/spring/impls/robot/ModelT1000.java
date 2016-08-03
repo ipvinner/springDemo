@@ -1,6 +1,9 @@
+package ua.od.iptel.spring.impls.robot;
 
-
-
+import ua.od.iptel.spring.interfaces.Hand;
+import ua.od.iptel.spring.interfaces.Head;
+import ua.od.iptel.spring.interfaces.Leg;
+import ua.od.iptel.spring.interfaces.Robot;
 
 public class ModelT1000 implements Robot {
 

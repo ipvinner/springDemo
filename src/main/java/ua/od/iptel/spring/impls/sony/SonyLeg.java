@@ -1,6 +1,6 @@
-package ru.javabegin.training.spring.impls.sony;
+package ua.od.iptel.spring.impls.sony;
 
-import ru.javabegin.training.spring.interfaces.Leg;
+import ua.od.iptel.spring.interfaces.Leg;
 
 public class SonyLeg implements Leg {
 	
